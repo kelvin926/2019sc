@@ -9,7 +9,7 @@ while True:  # while 반복문 사용
         guess = int(input('제 숫자를 맞춰보세요!:'))  # guess = 사용자의 추리 숫자
         if guess == i:  # 랜덤값과 추리숫자가 같을 경우
             print('맞추셨습니다!')
-            break #프로그램 정지
+            break  # 프로그램 정지
         elif guess > i and guess <= max:  # 최대,최소 범위 내에서 랜덤값이 추리값보다 작을 경우
             print('너무 높아요!')
         elif guess < i and guess >= min:  # 최대,최소 범위 내에서 랜덤값이 추리값보다 클 경우
