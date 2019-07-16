@@ -17,5 +17,4 @@ while True:  # while 반복문 사용
         else:  # 그 외의 상황 : 최대,최소 범위 내의 숫자를 입력하지 않았을 때
             print('최소값~최대값 사이의 숫자를 입력해주세요!')
     except:  # try ~except 구문의 오류(숫자가 아닌 다른 문자를 입력하였을 때) 상태 처리
-        print('숫자만 입력해주세요!') #okay i god it
-        print('hoho')
+        print('숫자만 입력해주세요!')
